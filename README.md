@@ -1,29 +1,54 @@
-# Leatherworks
-Leatherworks is a mod, that gives players a way to renew leather to craft and mend items in the game and/or added by other mods.
+<h1 style="text-align: center;"> Leatherworks </h1> <!-- This should be the name of your mod -->
 
+<!-- This section contains the current version, the current downloads and the current license. Go to https://shields.io in order to update these links -->
+<!-- NOTES:
+    Keep the space between the div definitions otherwise this wont work
+ -->
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 30%">
+
+| Version | Downloads | License |
+| :-----: | :-------: | :-----: |
+| ![GitHub release](https://img.shields.io/github/v/release/TonisGaming/Leatherworks?style=for-the-badge) | ![Downloads](https://img.shields.io/github/downloads/TonisGaming/Leatherworks/total?style=for-the-badge) | ![License](https://img.shields.io/github/license/TonisGaming/Leatherworks?style=for-the-badge) |
+# Requirements
+<!-- Yes, requirements before features.  -->
+This mods requires:
+- [x] [Tales from the Far Territory](https://www.thelongdark.com/expansion/) <!-- Note which DLC this mod requires, if any -->
+- [x] [ModComponent](https://github.com/dommrogers/ModComponent)
+- [x] [Modder's Tool Box](https://github.com/Jods-Its/Modders-Gear-Toolbox/releases) 
+# Features
+<!--
+This should be a bullet point list of everything the mod does
+-->
+Leatherworks is a mod, that gives players a way to renew leather to craft and mend items in the game and/or added by other mods.
 * Find treebark to create tanning or turn it into prepared treebark
 * Turn prepared treebark into different foods or create flour from grinding a large amount of fried prepared bark with a hammer or stone
 * Scrape animal hides to get scraped leather
 * Soak scraped leather in tanning to get raw leather down the line
-
-# DLC is REQUIRED for this mod to work
-
 Currently, all future plans for this mod have been put on hold, due to data loss. Consider the mod finished in its current state.
 If you run into issues, do let me know, thanks
-
+<!-- Unsure what these links are for
 https://github.com/TonisGaming/Leatherworks/assets/18740935/74147ed5-ccf4-4e8c-9757-c59c7f5d2272
-
 https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a242-9c557844d3ba
-
-## Installation
-
+-->
+# Install Instructions
+<!--
+This should be a bullet point list of everything the user must do in order to use the mod, including installing ML
+-->
 * Download the latest version from releases and place the .dll and .modcomponent into the mods folder
 * If you want compatibility with Camping Tools, download LeatherworksCT.dll instead of Leatherworks.dll
-
-* Requires [Modder's Tool Box](https://github.com/Jods-Its/Modders-Gear-Toolbox/releases) and [ModComponent](https://github.com/dommrogers/ModComponent) with its dependencies
-
-## Changelog
-
+# Credits
+<!--
+This should contain a list of everyone who has ever helped out with the mod, broken down into categories
+-->
+## Special Thanks
+<!--
+This should contain thanks to people who no longer mod, like when you take over a mod
+-->
+The Long Dark Modding Discord for being a help whenever I ran into issues and for having their code available, so I could actually have any idea on what to do with my lack of knowledge on code
+# Changelog
+<!-- Should move this to its own file and link it here -->
 **V1.0:**
 
 * Added treebark. Spawn chance can be tweaked in settings
@@ -59,10 +84,3 @@ https://github.com/TonisGaming/Leatherworks/assets/18740935/66da02ba-7129-4f36-a
 * Added the Prytool, a craftable prybar with 2 uses
 * Added a blueprint for making Prepared Bark to make bulk harvesting a bit better
 * Increased the amount of bark needed to make bark rope (3 -> 4)
-
-
-## Credits
-
-Jods for making [Modder's Tool Box](https://github.com/Jods-Its/Modders-Gear-Toolbox/releases)
-
-The Long Dark Modding Discord for being a help whenever I ran into issues and for having their code available, so I could actually have any idea on what to do with my lack of knowledge on code
